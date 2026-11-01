@@ -1,4 +1,4 @@
-import WorkExperience from "./directory";
+import WorkExperience from "./workCard";
 
 interface Work {
     title: string;

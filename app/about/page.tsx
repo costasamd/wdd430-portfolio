@@ -1,4 +1,4 @@
-import WorkList from "@/components/directoryList";
+import WorkList from "@/components/workCardList";
 
 const works = [
   {
