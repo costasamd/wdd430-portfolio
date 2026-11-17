@@ -10,7 +10,6 @@ export interface Project {
 }
 
 export async function getProjects (type?: string | null): Promise<Project[]> {
-    'use cache'
     
     if (type) {
         const { rows } = await sql<Project>`
